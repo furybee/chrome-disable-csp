@@ -1,3 +1,6 @@
 _metadata
 .idea
 .vscode
+
+build/
+chrome-disable-csp.zip
