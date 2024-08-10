@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Disable Content Security Policy (CPP)"
+    "message": "Disable Content Security Policy (CSP)"
   },
   "extensionDescription": {
     "message": "Disables the Content Security Policy (CSP) on web pages."
