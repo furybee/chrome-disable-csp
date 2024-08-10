@@ -1,14 +1,16 @@
 {
   "manifest_version": 3,
-  "name": "Disable Content Security Policy",
-  "version": "1.0",
-  "description": "Désactive la Content Security Policy (CSP) sur les pages Web.",
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "version": "1.0.0",
   "permissions": [
     "declarativeNetRequest",
     "declarativeNetRequestWithHostAccess",
     "storage",
     "activeTab"
   ],
+  "options_page": "options.html",
+  "default_locale": "en",
   "background": {
     "service_worker": "background.js"
   },
@@ -20,12 +22,5 @@
   },
   "host_permissions": [
     "<all_urls>"
-  ],
-  "declarative_net_request": {
-    "rule_resources": [{
-      "id": "ruleset_1",
-      "enabled": true,
-      "path": "rules.json"
-    }]
-  }
+  ]
 }
